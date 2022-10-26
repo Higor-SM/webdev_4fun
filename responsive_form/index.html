@@ -22,7 +22,7 @@
                         </li>
                         <li class="step active">
                             <span>2</span>
-                            <p>Contac<br><span>60 sec</span></p>
+                            <p>Contact<br><span>60 sec</span></p>
                         </li>
                         <li class="step active">
                             <span>3</span>
@@ -46,9 +46,9 @@
                         <div class="birth">
                             <label>Date of birth</label>
                             <div class="grouping">
-                                <input type="text" patter="[0-9]" name="day" value="" min="1" max="31">
-                                <input type="text" patter="[0-9]" name="month" value="" min="1" max="12">
-                                <input type="text" patter="[0-9]" name="year" value="" min="1900" max="2022">
+                                <input type="number" patter="[0-9]" name="day" value="" min="1" max="31" maxlength="2" placeholder="DD">
+                                <input type="number" patter="[0-9]" name="month" value="" min="1" max="12" maxlength="2" placeholder="MM">
+                                <input type="number" patter="[0-9]" name="year" value="" min="1900" max="2022" maxlength="4" placeholder="YYYY">
                             </div>
                         </div>
                     </div>
@@ -100,8 +100,8 @@
                     </div>
                     <div class="btn-group">
                         <button type="button" class="btn-prev" disabled>Back</button>
-                        <button type="button" class="btn-prev">Next Step</button>
-                        <button type="button" class="btn-prev">Submit</button>
+                        <button type="button" class="btn-next">Next Step</button>
+                        <button type="button" class="btn-submit">Submit</button>
                     </div>
                 </form>
             </div>
