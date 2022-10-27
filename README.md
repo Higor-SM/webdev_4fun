@@ -1,1 +1,1 @@
-formulário responsivo separado por etapas
+CRUD responsivo de cadastro de funcionários com armazenamento no localstorage, onde vai ter um aray que cada item vai ser renderizado na tela.
